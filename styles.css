@@ -3,6 +3,13 @@ body {
   color: white;
   font-family: verdana, Arial, Helvetica, sans-serif;
 }
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
 
 h1,
 h2,
@@ -12,6 +19,23 @@ h3 {
 
 #subheading {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+}
+
+.hero {
+  background-image: url(/montain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
 }
 
 table,
@@ -52,6 +76,8 @@ ol {
 
 .navigation {
   text-align: center;
+  background-color: aliceblue;
+  line-height: 50px;
 }
 
 .navigation-links {
@@ -68,6 +94,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.library-img {
+  max-width: 800px;
+  max-height: 200px;
+}
+
 footer {
   border: 1px solid hotpink;
   text-align: center;
@@ -77,4 +108,10 @@ footer {
 
 footer:hover {
   background-color: hotpink;
+}
+
+.contact-box {
+  text-align: center;
+  border: 1px solid green;
+  margin: 50px 300px 50px 300px;
 }
