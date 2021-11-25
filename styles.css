@@ -97,6 +97,8 @@ a:hover {
 .library-img {
   max-width: 800px;
   max-height: 200px;
+  padding-inline: 30px;
+  padding-bottom: 30px;
 }
 
 footer {
